@@ -1,0 +1,35 @@
+body{
+    background-color: #8CD1AC;
+}
+
+#lion{
+    display:block;
+    margin:0 auto;
+    width:300px;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 20px rgba(161, 54, 54, 0.4);
+}
+
+#lion:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#roar{
+    display:block;
+    margin:0 auto;
+    width:200px;
+   
+}
+h1{
+    text-align: center;
+    text-shadow:2px 2px 2px #333;
+}
+
+p{
+    font-size: large;
+    font-family: Georgia;
+    color: rgb(97, 77, 77);
+    text-align: justify;
+    
+}

@@ -1,0 +1,131 @@
+h1{
+    position:absolute;
+    top:0px;
+    left:620px;
+    align-items: center;
+}
+
+#profile-pic {
+  position: absolute;
+  top: 0px;     
+  left: 20px;    
+  width: 130px;  
+  border-radius: 8px; 
+}
+
+.intro{
+    position:absolute;
+    top: 200px;
+    align-items: flex-start;
+    width:35%;
+    text-align: left;
+    font-style:normal;
+    font-family: georgia;
+
+}
+
+.links {
+  display: flex;
+  align-items: flex-start;
+  gap:8px;
+  position: absolute;
+  top: 350px;
+  left: 10;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.hobbies{
+    display:block;
+    top: 490px;
+    position: absolute;
+    left:8px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:25%;
+    font-family: georgia;
+    font-style: italic;
+}
+
+.line-about {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 30%;
+  border: none;
+  border-top: 2px dotted #333;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.line-links {
+  position: absolute;
+  top: 490px;
+  left: 0;
+  width: 30%;
+  border: none;
+  border-top: 2px dotted #333;
+}
+
+.left {
+  width: 40%;
+  height:1000px;
+  float: left;
+  background-color: rgb(130, 130, 107);
+  margin-left: 0;
+}
+
+.details{
+    position: absolute;
+    right:0;
+}
+
+.education {
+    position:absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+  gap: 0px; 
+  top:150px;
+  left:650px;
+}
+
+.line-edu {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  border: none;
+  border-top: 2px dotted #333;
+}
+
+.skills{
+    position:absolute;
+    top: 390px;
+    left:700px;
+}
+.line-skills {
+  position: absolute;
+  top: 490px;
+  left: 0;
+  width: 100%;
+  border: none;
+  border-top: 2px dotted #333;
+}
+.xyz{
+    width: 60%;
+  height:1000px;
+  float: right;
+  background-color:antiquewhite;
+  margin-right: 0;
+
+}
+
+.lang{
+    position: absolute;
+    top: 490px;
+    left: 700px;
+}
