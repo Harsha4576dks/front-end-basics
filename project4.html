@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example</title>
+  <link rel="stylesheet" href="project4.css">
+</head>
+<body>
+  <button id="myButton">Click me!</button>
+  <p id="hello"></p>
+
+  <script>
+    const button = document.getElementById("myButton");
+    const message = document.getElementById("hello");
+
+    button.addEventListener("click", function() {
+      
+      message.textContent = "hi!";
+
+      
+      setTimeout(function() {
+        message.textContent = "";
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
