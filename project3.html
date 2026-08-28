@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter Example</title>
+  <link rel="stylesheet" href="project4.css" >
+</head>
+<body>
+  <button id="countBtn">Click Me!</button>
+  <p id="counter">0</p>
+
+  <script>
+    let count = 0;
+    const countBtn = document.getElementById("countBtn");
+    const counter = document.getElementById("counter");
+
+    countBtn.addEventListener("click", function() {
+      count++; 
+      counter.textContent = count;
+      
+    });
+  </script>
+</body>
+</html>
