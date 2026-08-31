@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click button</title>
+   <link rel="stylesheet" href="project4.css">
+</head>
+<body>
+    <button id="click_button">click me</button>
+    <p id="hello_JS">0</p>
+
+    <script>
+        let number = 1;
+
+  const click_button = document.getElementById("click_button");
+  const hello_JS = document.getElementById("hello_JS");
+
+  click_button.addEventListener("click", function() {
+
+    if (number <= 100){
+        hello_JS.textContent = number;
+        number += 2;
+    }
+  });
+</script>
+
+</body>
+</html>
